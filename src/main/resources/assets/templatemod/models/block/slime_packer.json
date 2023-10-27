@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "templatemod:block/slime_packer_front",
+    "side": "templatemod:block/slime_packer_side",
+    "top": "templatemod:block/slime_packer_top"
+  }
+}

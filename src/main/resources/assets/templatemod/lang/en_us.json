@@ -1,0 +1,5 @@
+{
+  "itemGroup.mod_blocks": "Mod content",
+  "block.templatemod.slime_packer": "Slime packer",
+  "block.templatemod.slime_packer.tooltip": "Turns slime ball into blocks"
+}

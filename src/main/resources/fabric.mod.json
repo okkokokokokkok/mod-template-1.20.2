@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "templatemod",
+  "version": "${version}",
+  "name": "unknown",
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/szumaster1/mod-template-1.20.2"
+  },
+  "license": "",
+  "icon": "assets/templatemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "szu.mod.TemplateMod"
+    ],
+    "client": [
+      "szu.mod.TemplateModClient"
+    ],
+    "rei_client": [
+      "szu.mod.compat.rei.TemplateREIClientplugin"
+    ]
+  },
+  "mixins": [
+    "templatemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "minecraft": "~1.20.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
